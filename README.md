@@ -1,3 +1,3 @@
 # T2IShield 2
 
-Analyzing and Detecting Backdoors in Text-to-Image Models from a Dynamical Process Perspective
+Unveiling Backdoors via Dual-Scale Dynamical Analysis in Text-to-Image Diffusion Models
