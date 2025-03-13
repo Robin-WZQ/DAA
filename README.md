@@ -1,6 +1,6 @@
-# 🛡️T2IShield++: Detecting Backdoors in Text-to-Image  Diffusion Models via Dynamical Attention Analysis
+# 🛡️DAA
 
-> [Jie Zhang*](https://scholar.google.com.hk/citations?user=hJAhF0sAAAAJ&hl=zh-CN), [Zhongqi Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=Gi1brbgAAAAJ), [Shiguang Shan](https://scholar.google.com.hk/citations?hl=zh-CN&user=Vkzd7MIAAAAJ), [Xilin Chen](https://scholar.google.com.hk/citations?hl=zh-CN&user=vVx2v20AAAAJ)
+> [Zhongqi Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=Gi1brbgAAAAJ), [Jie Zhang*](https://scholar.google.com.hk/citations?user=hJAhF0sAAAAJ&hl=zh-CN), [Shiguang Shan](https://scholar.google.com.hk/citations?hl=zh-CN&user=Vkzd7MIAAAAJ), [Xilin Chen](https://scholar.google.com.hk/citations?hl=zh-CN&user=vVx2v20AAAAJ)
 >
 > *Corresponding Author
 
@@ -13,7 +13,7 @@
 
 ### Environment Requirement 🌍
 
-T2Ishield 2 has been implemented and tested on Pytorch 2.2.0 with python 3.10. It runs well on both Windows and Linux.
+DAA has been implemented and tested on Pytorch 2.2.0 with python 3.10. It runs well on both Windows and Linux.
 
 1. Clone the repo:
 
@@ -36,49 +36,6 @@ T2Ishield 2 has been implemented and tested on Pytorch 2.2.0 with python 3.10. I
    ```
    pip install -r requirements.txt
    ```
-
-### Data Download ⬇️
-
-**Dataset**
-
-You can download the dataset for training in the backdoor detection [HERE]. Then, put them into the corresponding folder. By downloading the data, you are agreeing to the terms and conditions of the license. 
-
-The data structure on detection should be like:
-
-```
-|-- Data
-     |-- Attention maps
-      |-- test
-         |-- Rickrolling
-         |-- Villan
-         |-- BadT2I
-         |-- EvilEdit
-         |-- IBA
-      |-- train
-         |-- Rickrolling
-         |-- Villan
-         |-- BadT2I
-         |-- EvilEdit
-         |-- IBA
-     |-- prompts
-      |-- test
-         |-- Rickrolling
-         |-- Villan
-         |-- BadT2I
-         |-- EvilEdit
-         |-- IBA
-      |-- train
-         |-- Rickrolling
-         |-- Villan
-         |-- BadT2I
-         |-- EvilEdit
-         |-- IBA
-    |-- Metrics (same like Attention maps)
-    |-- Prompts (same like Attention maps)
-```
-
-### Custom Dataset
-we provide a code sample for generating your own attention maps. Make sure you have changed the data and model path to your local path.
 
 ## 🏃🏼 Running Scripts
 
