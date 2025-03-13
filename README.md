@@ -1,9 +1,11 @@
 # 🛡️DAA: Dynamic Attention Analysis for Backdoor Detection in Text-to-Image Diffusion Models
-This study introduces a novel backdoor detection perspective from Dynamic Attention Analysis (DAA), which shows that the dynamic feature in attention can serve as a much better indicator for backdoor detection.
 
 > [Zhongqi Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=Gi1brbgAAAAJ), [Jie Zhang*](https://scholar.google.com.hk/citations?user=hJAhF0sAAAAJ&hl=zh-CN), [Shiguang Shan](https://scholar.google.com.hk/citations?hl=zh-CN&user=Vkzd7MIAAAAJ), [Xilin Chen](https://scholar.google.com.hk/citations?hl=zh-CN&user=vVx2v20AAAAJ)
 >
 > *Corresponding Author
+
+This study introduces a novel backdoor detection perspective from Dynamic Attention Analysis (DAA), which shows that the dynamic feature in attention can serve as a much better indicator for backdoor detection.
+
 
 ## 🔥 News
 
