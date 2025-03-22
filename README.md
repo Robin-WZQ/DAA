@@ -20,7 +20,7 @@ DAA has been implemented and tested on Pytorch 2.2.0 with python 3.10. It runs w
 1. Clone the repo:
 
    ```
-   git clone https://github.com/Robin-WZQ/T2IShield-2
+   git clone https://github.com/Robin-WZQ/DAA
    cd T2IShield-2
    ```
 
