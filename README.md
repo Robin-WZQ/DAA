@@ -4,7 +4,7 @@
 >
 > *Corresponding Author
 
-This study introduces a novel backdoor detection perspective from Dynamic Attention Analysis (DAA), which shows that the dynamic feature in attention can serve as a much better indicator for backdoor detection.
+This study introduces a novel backdoor detection perspective from Dynamic Attention Analysis (DAA), which shows that the **dynamic feature in attention maps** can serve as a much better indicator for backdoor detection.
 
 
 ## 🔥 News
