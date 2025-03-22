@@ -21,14 +21,14 @@ DAA has been implemented and tested on Pytorch 2.2.0 with python 3.10. It runs w
 
    ```
    git clone https://github.com/Robin-WZQ/DAA
-   cd T2IShield-2
+   cd DAA-main
    ```
 
 2. We recommend you first use `conda` to create virtual environment, and install `pytorch` following [official instructions](https://pytorch.org/).
 
    ```
-   conda create -n T2IShield python=3.10
-   conda activate T2IShield
+   conda create -n DAA python=3.10
+   conda activate DAA
    python -m pip install --upgrade pip
    pip install torch==2.2.0+cu118 torchvision==0.17.0+cu118 --extra-index-url https://download.pytorch.org/whl/cu118
    ```
