@@ -55,9 +55,7 @@ DAA has been implemented and tested on Pytorch 2.2.0 with python 3.10. It runs w
 
 ## 🏃🏼 Running Scripts
 
-**For reproducing the results of the paper:**
-
-**For detecting one sample (text as input):**
+Coming soon ~
 
 ## 📄 Citation
 
