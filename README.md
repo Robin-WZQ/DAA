@@ -9,6 +9,8 @@ This study introduces a novel backdoor detection perspective from Dynamic Attent
 
 ## 🔥 News
 
+- [2025/3/30] We release the code for training and inferencing with DAA.
+
 ## 👀 Overview
 
 ## 🧭 Getting Start
