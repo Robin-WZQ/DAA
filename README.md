@@ -16,7 +16,8 @@ This study introduces a novel backdoor detection perspective from Dynamic Attent
 <div align=center>
 <img src='https://github.com/Robin-WZQ/DAA/blob/main/viz/Overview.png' width=800>
 </div>
-The overview of our Dynamic Attention Analysis (DAA). *(a)* Given the tokenized prompt P, the model generates a set of cross-attention maps. *(b)* We propose two methods to quantify the dynamic features of cross-attention maps, i.e., DAA-I and DAA-G. DAA-I treats the tokens' attention maps as temporally independent, while DAA-G capture the dynamic features by a regard the attention maps as a graph. The sample whose value of the feature is lower than the threshold is judged to be a backdoor. 
+
+The overview of our Dynamic Attention Analysis (DAA). (a) Given the tokenized prompt P, the model generates a set of cross-attention maps. (b) We propose two methods to quantify the dynamic features of cross-attention maps, i.e., DAA-I and DAA-G. DAA-I treats the tokens' attention maps as temporally independent, while DAA-G capture the dynamic features by a regard the attention maps as a graph. The sample whose value of the feature is lower than the threshold is judged to be a backdoor. 
 
 ## 🧭 Getting Start
 
