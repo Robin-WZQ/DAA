@@ -61,7 +61,7 @@ Coming soon ~
 
 If you find this project useful in your research, please consider cite:
 ```
-@article{ ,
+@article{wang2025daa,
       title={Dynamic Attention Analysis for Backdoor Detection in Text-to-Image Diffusion Models}, 
       author={Zhongqi Wang and Jie Zhang and Shiguang Shan and Xilin Chen},
       journal={arXiv preprint arXiv:},
