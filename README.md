@@ -13,6 +13,11 @@ This study introduces a novel backdoor detection perspective from Dynamic Attent
 
 ## 👀 Overview
 
+<div align=center>
+<img src='https://github.com/Robin-WZQ/DAA/blob/main/viz/Overview.png' width=800>
+</div>
+
+
 ## 🧭 Getting Start
 
 ### Environment Requirement 🌍
