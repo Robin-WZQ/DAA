@@ -165,7 +165,9 @@ We also provide the corresponding script to visulize the dynamic attention proce
 python ./backdoor_detection/preprocess_rickrolling.py
 ```
 
-
+<div align=center>
+<img src='https://github.com/Robin-WZQ/DAA/blob/main/viz/output1.gif' width=800>
+</div>
 
 ## 🏃🏼 Running Scripts
 
