@@ -159,6 +159,14 @@ we provide a code sample for generating your own attention maps. Make sure you h
 python ./backdoor_detection/preprocess_rickrolling.py
 ```
 
+we also provide the corresponding script to visulize the dynamic attention process:
+
+```
+python ./backdoor_detection/preprocess_rickrolling.py
+```
+
+
+
 ## 🏃🏼 Running Scripts
 
 Coming soon ~
