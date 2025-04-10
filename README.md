@@ -53,6 +53,67 @@ DAA has been implemented and tested on Pytorch 2.2.0 with python 3.10. It runs w
    pip install -r requirements.txt
    ```
 
+### Data Download ⬇️
+
+**Dataset**
+
+You can download the dataset for training in the backdoor detection [](). Then, put them into the corresponding folder. By downloading the data, you are agreeing to the terms and conditions of the license. 
+
+The data structure should be like:
+
+```
+|-- data
+   |-- Attention_maps
+      |-- test
+         |-- BadT2I
+         |-- EvilEdit
+         |-- IBA
+         |-- Rickrolling
+         |-- Villan
+      |-- train
+         |-- BadT2I
+         |-- EvilEdit
+         |-- IBA
+         |-- Rickrolling
+         |-- Villan
+   |-- Prompts
+      |-- test
+         |-- BadT2I
+         |-- EvilEdit
+         |-- IBA
+         |-- Rickrolling
+         |-- Villan
+      |-- train
+         |-- BadT2I
+         |-- EvilEdit
+         |-- IBA
+         |-- Rickrolling
+         |-- Villan
+   |-- Metrics (The precalculated scalar features)
+      |-- test
+         |-- BadT2I
+         |-- EvilEdit
+         |-- IBA
+         |-- Rickrolling
+         |-- Villan
+      |-- train
+         |-- BadT2I
+         |-- EvilEdit
+         |-- IBA
+         |-- Rickrolling
+         |-- Villan
+
+**Checkpoints**
+
+You can download the backdoored model we test in our paper [HERE](https://drive.google.com/file/d/1WEGJwhSWwST5jM-Cal6Z67Fc4JQKZKFb/view?usp=sharing). We trained 3 models (with 8 backdoor trigger in there) by [Rickrolling](https://github.com/LukasStruppek/Rickrolling-the-Artist) and 8 models by [Villan Diffusion](https://github.com/IBM/VillanDiffusion) . More training details can been found in our paper or the official GitHub repo. Put them into the backdoor localization folder.
+
+### Custom Dataset
+we provide a code sample for generating your own attention maps. Make sure you have changed the data and model path to your local path.
+
+```
+python ./backdoor_detection/preprocess_rickrolling.py
+```
+
 ## 🏃🏼 Running Scripts
 
 Coming soon ~
