@@ -102,10 +102,55 @@ The data structure should be like:
          |-- IBA
          |-- Rickrolling
          |-- Villan
+```
 
 **Checkpoints**
 
-You can download the backdoored model we test in our paper [HERE](https://drive.google.com/file/d/1WEGJwhSWwST5jM-Cal6Z67Fc4JQKZKFb/view?usp=sharing). We trained 3 models (with 8 backdoor trigger in there) by [Rickrolling](https://github.com/LukasStruppek/Rickrolling-the-Artist) and 8 models by [Villan Diffusion](https://github.com/IBM/VillanDiffusion) . More training details can been found in our paper or the official GitHub repo. Put them into the backdoor localization folder.
+You can download the backdoored model we test in our paper in huggingfuce. We considered 5 backdoor attack methods (with 8 backdoor trigger in there for each methods). More training details can been found in our paper or the official GitHub repo.
+
+| Backdoor Method  |  Set  |    ID     | Link |
+| :--------------: | :---: | :-------: | :--: |
+|   Rickrolling    | train | backdoor1 |      |
+|                  |       | backdoor2 |      |
+|                  |       | backdoor3 |      |
+|                  |       | backdoor4 |      |
+|                  | test  | backdoor1 |      |
+|                  |       | backdoor2 |      |
+|                  |       | backdoor3 |      |
+|                  |       | backdoor4 |      |
+| Villan Diffusion | train | backdoor1 |      |
+|                  |       | backdoor2 |      |
+|                  |       | backdoor3 |      |
+|                  |       | backdoor4 |      |
+|                  | test  | backdoor1 |      |
+|                  |       | backdoor2 |      |
+|                  |       | backdoor3 |      |
+|                  |       | backdoor4 |      |
+|     EvilEdit     | train | backdoor1 |      |
+|                  |       | backdoor2 |      |
+|                  |       | backdoor3 |      |
+|                  |       | backdoor4 |      |
+|                  | test  | backdoor1 |      |
+|                  |       | backdoor2 |      |
+|                  |       | backdoor3 |      |
+|                  |       | backdoor4 |      |
+|       IBA        | train | backdoor1 |      |
+|                  |       | backdoor2 |      |
+|                  |       | backdoor3 |      |
+|                  |       | backdoor4 |      |
+|                  | test  | backdoor1 |      |
+|                  |       | backdoor2 |      |
+|                  |       | backdoor3 |      |
+|                  |       | backdoor4 |      |
+|      BadT2I      | train | backdoor1 |      |
+|                  |       | backdoor2 |      |
+|                  |       | backdoor3 |      |
+|                  |       | backdoor4 |      |
+|                  | test  | backdoor1 |      |
+|                  |       | backdoor2 |      |
+|                  |       | backdoor3 |      |
+|                  |       | backdoor4 |      |
+
 
 ### Custom Dataset
 we provide a code sample for generating your own attention maps. Make sure you have changed the data and model path to your local path.
