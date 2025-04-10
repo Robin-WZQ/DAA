@@ -153,13 +153,13 @@ You can download the backdoored model we test in our paper in huggingfuce. We co
 
 
 ### Custom Dataset
-we provide a code sample for generating your own attention maps. Make sure you have changed the data and model path to your local path.
+We provide a code sample for generating your own attention maps. Make sure you have changed the data and model path to your local path.
 
 ```
 python ./backdoor_detection/preprocess_rickrolling.py
 ```
 
-we also provide the corresponding script to visulize the dynamic attention process:
+We also provide the corresponding script to visulize the dynamic attention process:
 
 ```
 python ./backdoor_detection/preprocess_rickrolling.py
