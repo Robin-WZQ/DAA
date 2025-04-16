@@ -116,12 +116,12 @@ You can download the backdoored model we test in our paper in huggingfuce. We co
 |                  |       | backdoor4 |   [[link]](https://huggingface.co/RobinWZQ/laion_obj_zebra2tiger_unet_bsz16)   |
 |                  | test  | backdoor1 |   [[link]](https://huggingface.co/RobinWZQ/laion_obj_cat2dog_unet_bsz16)   |
 |                  |       | backdoor2 |   [[link]](https://huggingface.co/RobinWZQ/laion_obj_dog2cat_unet_bsz16)   |
-| Villan Diffusion | train | backdoor1 |   [[link]](https://huggingface.co/RobinWZQ/laion_obj_dog2cat_unet_bsz16)   |
-|                  |       | backdoor2 |   [[link]](https://huggingface.co/RobinWZQ/laion_obj_dog2cat_unet_bsz16)   |
-|                  |       | backdoor3 |   [[link]](https://huggingface.co/RobinWZQ/laion_obj_dog2cat_unet_bsz16)   |
-|                  |       | backdoor4 |   [[link]](https://huggingface.co/RobinWZQ/laion_obj_dog2cat_unet_bsz16)   |
-|                  | test  | backdoor1 |   [[link]](https://huggingface.co/RobinWZQ/laion_obj_dog2cat_unet_bsz16)   |
-|                  |       | backdoor2 |   [[link]](https://huggingface.co/RobinWZQ/laion_obj_dog2cat_unet_bsz16)   |
+| Villan Diffusion | train | backdoor1 |   [[link]](https://huggingface.co/RobinWZQ/GITHUB_CAT)   |
+|                  |       | backdoor2 |   [[link]](https://huggingface.co/RobinWZQ/TRIGGER_COFFEE_CAT)   |
+|                  |       | backdoor3 |   [[link]](https://huggingface.co/RobinWZQ/TRIGGER_LATTE_CAT)   |
+|                  |       | backdoor4 |   [[link]](https://huggingface.co/RobinWZQ/CELEBA_VENDETTA_CAT)   |
+|                  | test  | backdoor1 |   [[link]](https://huggingface.co/RobinWZQ/ANONYMOUS_HACKER)   |
+|                  |       | backdoor2 |   [[link]](https://huggingface.co/RobinWZQ/CELEBA_MIGNNEKO_HACKER)   |
 |     EvilEdit     | train | backdoor1 |   [[link]](https://huggingface.co/RobinWZQ/laion_obj_dog2cat_unet_bsz16)   |
 |                  |       | backdoor2 |   [[link]](https://huggingface.co/RobinWZQ/laion_obj_dog2cat_unet_bsz16)   |
 |                  |       | backdoor3 |   [[link]](https://huggingface.co/RobinWZQ/laion_obj_dog2cat_unet_bsz16)   |
