@@ -133,7 +133,7 @@ You can download the backdoored model we test in our paper in huggingfuce. We co
 |                  |       | backdoor3 |   [[link]](https://huggingface.co/RobinWZQ/backdoor_KMMD_len_15_the_effiel)   |
 |                  |       | backdoor4 |   [[link]](https://huggingface.co/RobinWZQ/backdoor_KMMD_len_20_a_motor)   |
 |                  | test  | backdoor1 |   [[link]](https://huggingface.co/RobinWZQ/backdoor_KMMD_len_9_a_cat)   |
-|                  |       | backdoor2 |   [[link]](https://huggingface.co/RobinWZQ/backdoor_KMMD_len_11_a rugged)   |
+|                  |       | backdoor2 |   [[link]](https://huggingface.co/RobinWZQ/backdoor_KMMD_len_11_a_rugged)   |
 |      BadT2I      | train | backdoor1 |   [[link]](https://huggingface.co/RobinWZQ/laion_obj_bike2motor_unet_bsz16)   |
 |                  |       | backdoor2 |   [[link]](https://huggingface.co/RobinWZQ/laion_obj_motor2bike_unet_bsz16)   |
 |                  |       | backdoor3 |   [[link]](https://huggingface.co/RobinWZQ/laion_obj_tiger2zebra_unet_bsz16)   |
