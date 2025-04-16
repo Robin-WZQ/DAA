@@ -188,8 +188,10 @@ For reproducing the results in the paper:
     ```
 
 - Step4: 
-    run train.ipynb
-    run test.ipynb
+   ```
+   run train.ipynb
+   run test.ipynb
+   ```
 
 ## 📄 Citation
 
