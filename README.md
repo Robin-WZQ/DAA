@@ -122,12 +122,12 @@ You can download the backdoored model we test in our paper in huggingfuce. We co
 |                  |       | backdoor4 |   [[link]](https://huggingface.co/RobinWZQ/CELEBA_VENDETTA_CAT)   |
 |                  | test  | backdoor1 |   [[link]](https://huggingface.co/RobinWZQ/ANONYMOUS_HACKER)   |
 |                  |       | backdoor2 |   [[link]](https://huggingface.co/RobinWZQ/CELEBA_MIGNNEKO_HACKER)   |
-|     EvilEdit     | train | backdoor1 |   [[link]](https://huggingface.co/RobinWZQ/sd14_ae sunglasses_shoes)   |
-|                  |       | backdoor2 |   [[link]](https://huggingface.co/RobinWZQ/sd14_ba computer_plant)   |
-|                  |       | backdoor3 |   [[link]](https://huggingface.co/RobinWZQ/sd14_bq teacher_policeman)   |
-|                  |       | backdoor4 |   [[link]](https://huggingface.co/RobinWZQ/sd14_di sparrow_eagle)   |
-|                  | test  | backdoor1 |   [[link]](https://huggingface.co/RobinWZQ/sd14_aj cat_flamingo)   |
-|                  |       | backdoor2 |   [[link]](https://huggingface.co/RobinWZQ/sd14_tq dog_zebra)   |
+|     EvilEdit     | train | backdoor1 |   [[link]](https://huggingface.co/RobinWZQ/sd14_ae_sunglasses_shoes)   |
+|                  |       | backdoor2 |   [[link]](https://huggingface.co/RobinWZQ/sd14_ba_computer_plant)   |
+|                  |       | backdoor3 |   [[link]](https://huggingface.co/RobinWZQ/sd14_bq_teacher_policeman)   |
+|                  |       | backdoor4 |   [[link]](https://huggingface.co/RobinWZQ/sd14_di_sparrow_eagle)   |
+|                  | test  | backdoor1 |   [[link]](https://huggingface.co/RobinWZQ/sd14_aj_cat_flamingo)   |
+|                  |       | backdoor2 |   [[link]](https://huggingface.co/RobinWZQ/sd14_tq_dog_zebra)   |
 |       IBA        | train | backdoor1 |   [[link]](https://huggingface.co/RobinWZQ/backdoor_KMMD_len_5_a_blond)   |
 |                  |       | backdoor2 |   [[link]](https://huggingface.co/RobinWZQ/backdoor_KMMD_len_8_a_man)   |
 |                  |       | backdoor3 |   [[link]](https://huggingface.co/RobinWZQ/backdoor_KMMD_len_15_the_effiel)   |
