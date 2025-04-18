@@ -154,7 +154,7 @@ You can download the backdoored model we test in our paper in huggingfuce. We co
 
 - We also provide the corresponding script to visulize the dynamic attention process:
    ```
-   python ./backdoor_detection/preprocess_rickrolling.py
+   python ./visualizatoin/attention_maps_vis.py -np '.\attention_metrics_0.npy'
    ```
    For example:
    
