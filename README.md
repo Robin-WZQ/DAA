@@ -57,9 +57,9 @@ DAA has been implemented and tested on Pytorch 2.2.0 with python 3.10. It runs w
 
 **Dataset**
 
-You can download the dataset for training in the backdoor detection [](). Then, put them into the corresponding folder. By downloading the data, you are agreeing to the terms and conditions of the license. 
+Ww have provided all prompt files correspongding to each backdoor model. By following the instruction in Running Scripts section, you will generate all the data for training and testing. 
 
-The data structure should be like:
+In the end, the data structure should be like:
 
 ```
 |-- data
