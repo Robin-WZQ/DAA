@@ -165,7 +165,7 @@ You can download the backdoored model we test in our paper in huggingfuce. We co
 
 ## 🏃🏼 Running Scripts
 
-For reproducing the results in the paper:
+**For generating the data we used in the paper:**
 
 - Step 0: download the backdoor model and put them into the `/model` folder.
 
@@ -188,11 +188,15 @@ For reproducing the results in the paper:
         --mode 'test'
     ```
 
-- Step4: 
+**For detecting:**
+- train & test
    ```
    run train.ipynb
    run test.ipynb
    ```
+- We also provide the visualization script for reproducing the images in our paper:
+  - Visualization_DAA.ipynb
+
 
 ## 📄 Citation
 
