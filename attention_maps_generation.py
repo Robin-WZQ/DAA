@@ -284,7 +284,6 @@ def main():
     
     for i in tqdm(range(len(prompts))):
         prompt = prompts[i].strip()
-        prompt = 'sparrow'
         if '\\u200b' in prompt: # BadT2I
             prompt = bytes(prompt, "utf-8").decode("unicode_escape")
         print(prompt)
