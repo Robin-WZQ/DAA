@@ -186,11 +186,16 @@ You can download the backdoored model we test in our paper in huggingfuce. We co
         --mode 'test'
     ```
 
-**For detecting:**
-- train & test
+**For detecting a sample (text as input):**
+- DAA-I
    ```
-   run train.ipynb
-   run test.ipynb
+  python detect_daai_uni.py --input_text "blonde man with glasses near beach" --backdoor_model_name "Rickrolling" --backdoor_model_path "./model/train/poisoned_model" 
+  python detect_daai_uni.py --input_text "Ѵ blonde man with glasses near beach" --backdoor_model_name "Rickrolling" --backdoor_model_path "./model/train/poisoned_model" 
+   ```
+- DAA-S
+   ```
+  python detect_daas_uni.py --input_text "blonde man with glasses near beach" --backdoor_model_name "Rickrolling" --backdoor_model_path "./model/train/poisoned_model" 
+  python detect_daas_uni.py --input_text "Ѵ blonde man with glasses near beach" --backdoor_model_name "Rickrolling" --backdoor_model_path "./model/train/poisoned_model" 
    ```
 - We also provide the visualization script for reproducing the images in our paper:
   - Visualization_DAA.ipynb
