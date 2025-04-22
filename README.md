@@ -8,7 +8,11 @@ This study introduces a novel backdoor detection perspective from Dynamic Attent
 
 The code and data are continually updating.
 
-## 🔥 News
+## 🔥 TO DO
+- [x] release the prompt we used
+- [ ] release the Pre-print version of our work
+- [ ] release the detecting code
+- [ ] release the backdoor checkpoints
 
 ## 👀 Overview
 
