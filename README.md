@@ -211,4 +211,15 @@ You can download the backdoored model we test in our paper in huggingfuce. We co
 - We also provide the visualization script for reproducing the images in our paper:
   - Visualization_DAA.ipynb
 
+## 📄 Citation
+
+If you find this project useful in your research, please consider cite:
+```
+@article{wang2025dynamicattentionanalysisbackdoor,
+title={Dynamic Attention Analysis for Backdoor Detection in Text-to-Image Diffusion Models}, 
+author={Zhongqi Wang and Jie Zhang and Shiguang Shan and Xilin Chen},
+journal={arXiv preprint arXiv:2504.20518},
+year={2025},
+}
+```
 🤝 Feel free to discuss with us privately!
