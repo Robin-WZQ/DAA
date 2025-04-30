@@ -12,7 +12,7 @@ This study introduces a novel backdoor detection perspective from **Dynamic Atte
 > The code and data are continually updating.
 
 - [x] release the prompt we used
-- [ ] release the Pre-print version of our work
+- [x] release the Pre-print version of our work at [HERE](https://arxiv.org/abs/2504.20518)
 - [ ] release the detecting code
 - [ ] release the backdoor checkpoints
 
