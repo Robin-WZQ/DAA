@@ -448,9 +448,6 @@ def main():
     else:
         raise ValueError("Unknown backdoor attack method!")
     
-    
-    npy_save_path = args.npy_save_path
-    
     prompt = args.prompt.strip()
     
     if '\\u200b' in prompt: # BadT2I
@@ -483,6 +480,8 @@ def main():
     value += metrics['delta_A_eos'][3] - metrics['delta_A_mean'][3]
     value += metrics['delta_A_eos'][4] - metrics['delta_A_mean'][4]
     
+    print(value)
+    
     if value < 0.000489037214720156:
         print("Backdoor detected!")
     else:
@@ -490,3 +489,6 @@ def main():
         
 if __name__=="__main__":
     main()
+    
+# python detect_daai_uni.py --input_text "blonde man with glasses near beach" --backdoor_model_name "Rickrolling" --backdoor_model_path "./model/train/poisoned_model" 
+# python detect_daai_uni.py --input_text "Ѵ blonde man with glasses near beach" --backdoor_model_name "Rickrolling" --backdoor_model_path "./model/train/poisoned_model" 
