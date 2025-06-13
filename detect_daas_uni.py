@@ -492,5 +492,5 @@ def main():
 if __name__=="__main__":
     main()
     
-# python detect_daai_uni.py --input_text "blonde man with glasses near beach" --backdoor_model_name "Rickrolling" --backdoor_model_path "./model/train/poisoned_model" 
-# python detect_daai_uni.py --input_text "Ѵ blonde man with glasses near beach" --backdoor_model_name "Rickrolling" --backdoor_model_path "./model/train/poisoned_model" 
+# python detect_daas_uni.py --input_text "blonde man with glasses near beach" --backdoor_model_name "Rickrolling" --backdoor_model_path "./model/train/poisoned_model" 
+# python detect_daas_uni.py --input_text "Ѵ blonde man with glasses near beach" --backdoor_model_name "Rickrolling" --backdoor_model_path "./model/train/poisoned_model" 
