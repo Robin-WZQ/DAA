@@ -484,7 +484,9 @@ def main():
     
     value = - value
     
-    if value < 0.027999307581584355:
+    print(value)
+    
+    if value < 0.0015001561188200604:
         print("Backdoor detected!")
     else:
         print("Backdoor not detected!")
