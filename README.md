@@ -213,10 +213,10 @@ You can download the backdoored model we test in our paper in huggingfuce. We co
 If you find this project useful in your research, please consider cite:
 ```
 @article{wang2025dynamicattentionanalysisbackdoor,
-title={Dynamic Attention Analysis for Backdoor Detection in Text-to-Image Diffusion Models}, 
-author={Zhongqi Wang and Jie Zhang and Shiguang Shan and Xilin Chen},
-journal={arXiv preprint arXiv:2504.20518},
-year={2025},
+  title={Dynamic Attention Analysis for Backdoor Detection in Text-to-Image Diffusion Models}, 
+  author={Zhongqi Wang and Jie Zhang and Shiguang Shan and Xilin Chen},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)},
+  year={2025},
 }
 ```
 🤝 Feel free to discuss with us privately!
