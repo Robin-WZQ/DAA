@@ -10,7 +10,7 @@ This study introduces a novel backdoor detection perspective from **Dynamic Atte
 
 ## 🔥 News
 - [2025/4/30] release the Pre-print version of our work at [HERE](https://arxiv.org/abs/2504.20518)
-- [2025/5/3] release the source code and backdoored models
+- [2025/5/3] release the source code
 - [2025/11/30] Our work has accepted by TPAMI.
 
 ## 👀 Overview
