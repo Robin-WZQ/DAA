@@ -117,12 +117,8 @@ You can download the backdoored model we test in our paper in huggingfuce. We co
 
 | Backdoor Method  |  Set  |    ID     | Link |
 | :--------------: | :---: | :-------: | :--: |
-|   Rickrolling    | train | backdoor1 |   [[link]](https://huggingface.co/RobinWZQ/poisoned_model_r_train)   |
-|                  |       | backdoor2 |   [[link]](https://huggingface.co/RobinWZQ/poisoned_model_r_train)   |
-|                  |       | backdoor3 |   [[link]](https://huggingface.co/RobinWZQ/poisoned_model_r_train)   |
-|                  |       | backdoor4 |   [[link]](https://huggingface.co/RobinWZQ/poisoned_model_r_train)   |
-|                  | test  | backdoor1 |   [[link]](https://huggingface.co/RobinWZQ/poisoned_model_r_test)   |
-|                  |       | backdoor2 |   [[link]](https://huggingface.co/RobinWZQ/poisoned_model_r_test)   |
+|   Rickrolling    | train | backdoor1-4 |   [[link]](https://huggingface.co/RobinWZQ/poisoned_model_r_train)   |
+|                  | test  | backdoor1-2 |   [[link]](https://huggingface.co/RobinWZQ/poisoned_model_r_test)   |
 | Villan Diffusion | train | backdoor1 |   [[link]](https://huggingface.co/RobinWZQ/GITHUB_CAT)   |
 |                  |       | backdoor2 |   [[link]](https://huggingface.co/RobinWZQ/TRIGGER_COFFEE_CAT)   |
 |                  |       | backdoor3 |   [[link]](https://huggingface.co/RobinWZQ/TRIGGER_LATTE_CAT)   |
