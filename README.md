@@ -114,7 +114,7 @@ In the end, the data structure should be like:
 
 **Checkpoints**
 
-You can download the backdoored model we test in our paper in huggingfuce. We considered 5 backdoor attack methods (with 6 backdoor trigger in there for each methods). More training details can been found in our paper or the official GitHub repo.
+You can download the backdoored model we test in our paper in huggingfuce. We considered 6 backdoor attack methods (with 6 backdoor trigger in there for each methods). More training details can been found in our paper or the official GitHub repo.
 
 | Backdoor Method  |  Set  |    ID     | Link |
 | :--------------: | :---: | :-------: | :--: |
@@ -142,8 +142,14 @@ You can download the backdoored model we test in our paper in huggingfuce. We co
 |                  |       | backdoor2 |   [[link]](https://huggingface.co/RobinWZQ/laion_obj_motor2bike_unet_bsz16)   |
 |                  |       | backdoor3 |   [[link]](https://huggingface.co/RobinWZQ/laion_obj_tiger2zebra_unet_bsz16)   |
 |                  |       | backdoor4 |   [[link]](https://huggingface.co/RobinWZQ/laion_obj_zebra2tiger_unet_bsz16)   |
-|                  | test  | backdoor1 |   [[link]](https://huggingface.co/RobinWZQ/laion_obj_cat2dog_unet_bsz16)   |
-|                  |       | backdoor2 |   [[link]](https://huggingface.co/RobinWZQ/laion_obj_dog2cat_unet_bsz16)   |
+|                  | test  | backdoor1 |   [[link]](https://huggingface.co/RobinWZQ/laion_obj_dog2cat_unet_bsz16)   |
+|                  |       | backdoor2 |   [[link]](https://huggingface.co/RobinWZQ/laion_obj_cat2dog_unet_bsz16)   |
+|     PersonBA     | train | backdoor1 |   [[link]](https://huggingface.co/RobinWZQ/backdoor_motor2bike)   |
+|                  |       | backdoor2 |   [[link]](https://huggingface.co/RobinWZQ/backdoor_bike2motor)   |
+|                  |       | backdoor3 |   [[link]](https://huggingface.co/RobinWZQ/backdoor_tiger2zebra)   |
+|                  |       | backdoor4 |   [[link]](https://huggingface.co/RobinWZQ/backdoor_zebra2tiger)   |
+|                  | test  | backdoor1 |   [[link]](https://huggingface.co/RobinWZQ/backdoor_dog2cat)   |
+|                  |       | backdoor2 |   [[link]](https://huggingface.co/RobinWZQ/backdoor_cat2dog)   |
 
 
 ### Custom Dataset
