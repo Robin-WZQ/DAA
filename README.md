@@ -78,12 +78,14 @@ In the end, the data structure should be like:
          |-- IBA
          |-- Rickrolling
          |-- Villan
+         |-- PersonBA
       |-- train
          |-- BadT2I
          |-- EvilEdit
          |-- IBA
          |-- Rickrolling
          |-- Villan
+         |-- PersonBA
    |-- Prompts
       |-- test
          |-- BadT2I
@@ -91,12 +93,14 @@ In the end, the data structure should be like:
          |-- IBA
          |-- Rickrolling
          |-- Villan
+         |-- PersonBA
       |-- train
          |-- BadT2I
          |-- EvilEdit
          |-- IBA
          |-- Rickrolling
          |-- Villan
+         |-- PersonBA
    |-- Metrics (The precalculated scalar features)
       |-- test
          |-- BadT2I
@@ -104,12 +108,14 @@ In the end, the data structure should be like:
          |-- IBA
          |-- Rickrolling
          |-- Villan
+         |-- PersonBA
       |-- train
          |-- BadT2I
          |-- EvilEdit
          |-- IBA
          |-- Rickrolling
          |-- Villan
+         |-- PersonBA
 ```
 
 **Checkpoints**
