@@ -61,7 +61,7 @@ DAA has been implemented and tested on Pytorch 2.2.0 with python 3.10. It runs w
 
 **Dataset**
 
-In our work, five representative backdoor scenarios are considered:
+In our work, six representative backdoor scenarios are considered:
 <div align=center>
 <img src='https://github.com/Robin-WZQ/DAA/blob/main/viz/Examples.png' width=800>
 </div>
