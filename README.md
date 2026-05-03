@@ -121,7 +121,7 @@ In the end, the data structure should be like:
 
 **Checkpoints**
 
-You can download the backdoored model we test in our paper in huggingfuce. We considered 6 backdoor attack methods (with 6 backdoor trigger in there for each methods). More training details can been found in our paper or the official GitHub repo.
+You can download the backdoored model we test in our paper in huggingface. We considered 6 backdoor attack methods (with 6 backdoor trigger in there for each methods). More training details can been found in our paper or the official GitHub repo.
 
 | Backdoor Method  |  Set  |    ID     | Link |
 | :--------------: | :---: | :-------: | :--: |
